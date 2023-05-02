@@ -1,0 +1,11 @@
+body {background-color:grey}
+.textbox {background-color:white; outline-style: solid; padding-left: 5px; offset-position: center; font-size: 30px}
+.gamebox {background-color:white; outline-style: solid; padding-top: 5%; padding-bottom: 5%; offset-position: center; font-size: 30px}
+#header {background-color:DarkRed; text-align: center; outline-style: solid; font-family:Perpetua}
+#floor {width:100%; height:15%; position: fixed; bottom: 0; left:0; z-index:-1}
+#footer {position: fixed; bottom: 0; color: white; z-index:-1}
+.navbar {background-color:white; color:black; outline-style: solid; padding-left: 5px; padding-right: 5px; font-size: 30px}
+.flex-container {display: flex; justify-content: center; }
+.option-spacing {display: grid; grid-template-columns: repeat(2, auto); gap: 10px; margin-top: 20px}
+.option {background-color: DarkRed; border: 3px solid black; font-size: 30px; color: white; padding-left: 5px; padding-right: 5px; margin: 5px;}
+.option:hover {border-color: white;}
